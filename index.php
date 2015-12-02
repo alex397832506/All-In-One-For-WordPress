@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name:All-In-One-For-WordPress
-Plugin URI: 插件的介绍或更新地址
+Plugin URI: https://github.com/alex397832506/All-In-One-For-WordPress
 Description: 安装完WordPress之后你只需要这一个插件！
-Version: 1.0
+Version: 1.0.1
 Author: Alex
 Author URI: http://www.atalex.net
 License: GNU GENERAL PUBLIC LICENSE
