@@ -10,13 +10,11 @@ License: GNU GENERAL PUBLIC LICENSE
 */
 
 /**
-
  * @package All-In-One-For-WordPress
  * @author Alex @link http://atalex.net
  * @since 1.0.1
  * @version 1.0.1
  */
-
 /*
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
