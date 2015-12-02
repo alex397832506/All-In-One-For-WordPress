@@ -44,7 +44,7 @@ function github_plugin_updater_test_init() {
 
 		$config = array(
             'slug' => plugin_basename( __FILE__ ),
-            'proper_folder_name' => 'All-In-One-For-WordPress', // this is the name of the folder your plugin lives in
+            'proper_folder_name' => 'Optimization-All-In-One-For-WordPress', // this is the name of the folder your plugin lives in
             'api_url' => 'https://api.github.com/repos/alex397832506/All-In-One-For-WordPress', // the GitHub API url of your GitHub repo
             'raw_url' => 'https://raw.github.com/alex397832506/All-In-One-For-WordPress/master', // the GitHub raw url of your GitHub repo
             'github_url' => 'https://github.com/alex397832506/All-In-One-For-WordPress', // the GitHub url of your GitHub repo
