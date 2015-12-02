@@ -53,6 +53,8 @@ function github_plugin_updater_test_init() {
             'readme' => 'README.md', 
             'access_token' => '', 
             );
-        new WP_GitHub_Updater($config);
-    }
-  ?>
+		new WP_GitHub_Updater( $config );
+
+	}
+
+}
