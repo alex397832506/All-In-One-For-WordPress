@@ -58,6 +58,18 @@ function github_plugin_updater_test_init() {
 	}
 
 }
+// 移除opensans  
+if (!function_exists('remove_wp_open_sans')) :   
+function remove_wp_open_sans() {   
+wp_deregister_style( 'open-sans' );   
+wp_register_style( 'open-sans', false );   
+}
+// 前台删除Google字体CSS   
+add_action('wp_enqueue_scripts', 'remove_wp_open_sans');
+// 后台删除Google字体CSS   
+add_action('admin_enqueue_scripts', 'remove_wp_open_sans'); 
+endif;
+//设置后台雅黑字体
 function Bing_admin_lettering(){
     echo'<style type="text/css">
         * { font-family: "Microsoft YaHei" !important; }
