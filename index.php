@@ -3,7 +3,7 @@
 Plugin Name:All-In-One-For-WordPress
 Plugin URI: https://github.com/alex397832506/All-In-One-For-WordPress
 Description: 安装完WordPress之后你只需要这一个插件！
-Version: 1.0.2
+Version: 1.0.3
 Author: Alex
 Author URI: http://www.atalex.net
 License: GNU GENERAL PUBLIC LICENSE
@@ -83,3 +83,5 @@ function Bing_admin_lettering(){
         </style>';
 }
 add_action('admin_head', 'Bing_admin_lettering');
+//前台移除Admin_Bar
+add_filter( 'show_admin_bar', '__return_false' );
